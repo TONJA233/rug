@@ -57,12 +57,11 @@ struct war_info
 	double wind;	// 实时风力
 	double ts_left;	// 剩余时间（转换为整数）
 	double zones[4];	// 比赛区域大小：[0] - 零区长度；[1] - 零区+一区长度；[2] - 零区+一区+二区长度；[3] - 比赛区长度
-
+	
 	// 玩家输出信息
 	double player_acc;  // 玩家输出
 	char* player_name;  // 玩家团队名称和成员姓名
 };
-
 
 /************************ 玩家函数 ************************/
 // 在这里列出所有参赛玩家函数声明
@@ -174,6 +173,7 @@ int main(int argc, char* argv[])
 	flag_pos = INIT_POS;
 	flag_vel = 0;
 	buf[ZONELEN] = 0;
+	
 
 	// 玩家名称
 	rt_info.player_acc = 0; 

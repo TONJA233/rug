@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20250520-0853-Experimental"
+	Name="(empty)"
+	Generator="ctest-4.0.2"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="Zako"
+	OSRelease=" Professional"
+	OSVersion=" (Build 19045)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="15"
+	ModelID="1"
+	ModelName="AMD Ryzen 7 7700 8-Core Processor              "
+	ProcessorCacheSize="64"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="33909"
+	TotalPhysicalMemory="31861"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="3792"
+	>
+	<Testing>
+		<StartDateTime>May 20 16:53 [NON-UTF-8-BYTE-0xD6]й[NON-UTF-8-BYTE-0xFA][NON-UTF-8-BYTE-0xB1][NON-UTF-8-BYTE-0xEA]׼ʱ[NON-UTF-8-BYTE-0xBC][NON-UTF-8-BYTE-0xE4]</StartDateTime>
+		<StartTestTime>1747731196</StartTestTime>
+		<TestList/>
+		<EndDateTime>May 20 16:53 [NON-UTF-8-BYTE-0xD6]й[NON-UTF-8-BYTE-0xFA][NON-UTF-8-BYTE-0xB1][NON-UTF-8-BYTE-0xEA]׼ʱ[NON-UTF-8-BYTE-0xBC][NON-UTF-8-BYTE-0xE4]</EndDateTime>
+		<EndTestTime>1747731196</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

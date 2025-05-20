@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/a1293/Documents/Programs/C/rug/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g -std=gnu11 -o CMakeFiles\\main.dir\\Tugwar.c.obj -c C:\\Users\\a1293\\Documents\\Programs\\C\\rug\\Tugwar.c",
+  "file": "C:/Users/a1293/Documents/Programs/C/rug/Tugwar.c",
+  "output": "CMakeFiles/main.dir/Tugwar.c.obj"
+},
+{
+  "directory": "C:/Users/a1293/Documents/Programs/C/rug/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g -std=gnu11 -o CMakeFiles\\main.dir\\player1_demo.c.obj -c C:\\Users\\a1293\\Documents\\Programs\\C\\rug\\player1_demo.c",
+  "file": "C:/Users/a1293/Documents/Programs/C/rug/player1_demo.c",
+  "output": "CMakeFiles/main.dir/player1_demo.c.obj"
+}
+]
