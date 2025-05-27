@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <math.h>
 
-#define CHEATING 1 // 外挂
+#define CHEATING 0 // 外挂
 
 struct war_info
 {
@@ -71,7 +71,7 @@ double *get_flagAddr(struct war_info *info)
 /// <param name="info">比赛信息，参见war_info结构的说明</param>
 void player1(struct war_info *info)
 {
-	#ifdef CHEATING
+#if CHEATING
 	/**************必删的这是外挂必删的**************/
 	static double *flag_pos=NULL;
 	if (flag_pos == NULL) // 只运行一次
