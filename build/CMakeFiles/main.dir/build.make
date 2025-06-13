@@ -85,35 +85,51 @@ CMakeFiles/main.dir/Tugwar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/Tugwar.c.s"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\a1293\Documents\Programs\C\rug\Tugwar.c -o CMakeFiles\main.dir\Tugwar.c.s
 
-CMakeFiles/main.dir/player1_demo.c.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/player1_demo.c.obj: C:/Users/a1293/Documents/Programs/C/rug/player1_demo.c
-CMakeFiles/main.dir/player1_demo.c.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\a1293\Documents\Programs\C\rug\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/main.dir/player1_demo.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/player1_demo.c.obj -MF CMakeFiles\main.dir\player1_demo.c.obj.d -o CMakeFiles\main.dir\player1_demo.c.obj -c C:\Users\a1293\Documents\Programs\C\rug\player1_demo.c
+CMakeFiles/main.dir/Fin_player.c.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/Fin_player.c.obj: C:/Users/a1293/Documents/Programs/C/rug/Fin_player.c
+CMakeFiles/main.dir/Fin_player.c.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\a1293\Documents\Programs\C\rug\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/main.dir/Fin_player.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/Fin_player.c.obj -MF CMakeFiles\main.dir\Fin_player.c.obj.d -o CMakeFiles\main.dir\Fin_player.c.obj -c C:\Users\a1293\Documents\Programs\C\rug\Fin_player.c
 
-CMakeFiles/main.dir/player1_demo.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/player1_demo.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\a1293\Documents\Programs\C\rug\player1_demo.c > CMakeFiles\main.dir\player1_demo.c.i
+CMakeFiles/main.dir/Fin_player.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/Fin_player.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\a1293\Documents\Programs\C\rug\Fin_player.c > CMakeFiles\main.dir\Fin_player.c.i
 
-CMakeFiles/main.dir/player1_demo.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/player1_demo.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\a1293\Documents\Programs\C\rug\player1_demo.c -o CMakeFiles\main.dir\player1_demo.c.s
+CMakeFiles/main.dir/Fin_player.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/Fin_player.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\a1293\Documents\Programs\C\rug\Fin_player.c -o CMakeFiles\main.dir\Fin_player.c.s
+
+CMakeFiles/main.dir/restore.c.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/restore.c.obj: C:/Users/a1293/Documents/Programs/C/rug/restore.c
+CMakeFiles/main.dir/restore.c.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\a1293\Documents\Programs\C\rug\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/main.dir/restore.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/restore.c.obj -MF CMakeFiles\main.dir\restore.c.obj.d -o CMakeFiles\main.dir\restore.c.obj -c C:\Users\a1293\Documents\Programs\C\rug\restore.c
+
+CMakeFiles/main.dir/restore.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/restore.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\a1293\Documents\Programs\C\rug\restore.c > CMakeFiles\main.dir\restore.c.i
+
+CMakeFiles/main.dir/restore.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/restore.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\a1293\Documents\Programs\C\rug\restore.c -o CMakeFiles\main.dir\restore.c.s
 
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/Tugwar.c.obj" \
-"CMakeFiles/main.dir/player1_demo.c.obj"
+"CMakeFiles/main.dir/Fin_player.c.obj" \
+"CMakeFiles/main.dir/restore.c.obj"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
 main.exe: CMakeFiles/main.dir/Tugwar.c.obj
-main.exe: CMakeFiles/main.dir/player1_demo.c.obj
+main.exe: CMakeFiles/main.dir/Fin_player.c.obj
+main.exe: CMakeFiles/main.dir/restore.c.obj
 main.exe: CMakeFiles/main.dir/build.make
 main.exe: CMakeFiles/main.dir/linkLibs.rsp
 main.exe: CMakeFiles/main.dir/objects1.rsp
 main.exe: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\a1293\Documents\Programs\C\rug\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\a1293\Documents\Programs\C\rug\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable main.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

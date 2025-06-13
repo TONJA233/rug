@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/main.dir/Fin_player.c.obj"
+  "CMakeFiles/main.dir/Fin_player.c.obj.d"
   "CMakeFiles/main.dir/Tugwar.c.obj"
   "CMakeFiles/main.dir/Tugwar.c.obj.d"
-  "CMakeFiles/main.dir/player1_demo.c.obj"
-  "CMakeFiles/main.dir/player1_demo.c.obj.d"
+  "CMakeFiles/main.dir/restore.c.obj"
+  "CMakeFiles/main.dir/restore.c.obj.d"
   "libmain.dll.a"
   "main.exe"
   "main.exe.manifest"

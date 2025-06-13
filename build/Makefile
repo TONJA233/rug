@@ -128,6 +128,30 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+Fin_player.obj: Fin_player.c.obj
+.PHONY : Fin_player.obj
+
+# target to build an object file
+Fin_player.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Fin_player.c.obj
+.PHONY : Fin_player.c.obj
+
+Fin_player.i: Fin_player.c.i
+.PHONY : Fin_player.i
+
+# target to preprocess a source file
+Fin_player.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Fin_player.c.i
+.PHONY : Fin_player.c.i
+
+Fin_player.s: Fin_player.c.s
+.PHONY : Fin_player.s
+
+# target to generate assembly for a file
+Fin_player.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Fin_player.c.s
+.PHONY : Fin_player.c.s
+
 Tugwar.obj: Tugwar.c.obj
 .PHONY : Tugwar.obj
 
@@ -152,29 +176,29 @@ Tugwar.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/Tugwar.c.s
 .PHONY : Tugwar.c.s
 
-player1_demo.obj: player1_demo.c.obj
-.PHONY : player1_demo.obj
+restore.obj: restore.c.obj
+.PHONY : restore.obj
 
 # target to build an object file
-player1_demo.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/player1_demo.c.obj
-.PHONY : player1_demo.c.obj
+restore.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/restore.c.obj
+.PHONY : restore.c.obj
 
-player1_demo.i: player1_demo.c.i
-.PHONY : player1_demo.i
+restore.i: restore.c.i
+.PHONY : restore.i
 
 # target to preprocess a source file
-player1_demo.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/player1_demo.c.i
-.PHONY : player1_demo.c.i
+restore.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/restore.c.i
+.PHONY : restore.c.i
 
-player1_demo.s: player1_demo.c.s
-.PHONY : player1_demo.s
+restore.s: restore.c.s
+.PHONY : restore.s
 
 # target to generate assembly for a file
-player1_demo.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/player1_demo.c.s
-.PHONY : player1_demo.c.s
+restore.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/restore.c.s
+.PHONY : restore.c.s
 
 # Help Target
 help:
@@ -185,12 +209,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... main
+	@echo ... Fin_player.obj
+	@echo ... Fin_player.i
+	@echo ... Fin_player.s
 	@echo ... Tugwar.obj
 	@echo ... Tugwar.i
 	@echo ... Tugwar.s
-	@echo ... player1_demo.obj
-	@echo ... player1_demo.i
-	@echo ... player1_demo.s
+	@echo ... restore.obj
+	@echo ... restore.i
+	@echo ... restore.s
 .PHONY : help
 
 

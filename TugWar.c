@@ -68,23 +68,25 @@ struct war_info
 void demo_player(struct war_info* info);	// 示例玩家
 void random_player(struct war_info* info);	// 示例玩家
 void player1(struct war_info* info);
+void enimy(struct war_info* info);
+
 
 
 // 在这里列出所有参赛玩家函数和名称
 void (*playeracc[])(struct war_info* info) =
 { 
-	demo_player, player1, random_player
+	demo_player, player1, random_player,enimy
 };
 
 // 正式比赛时，在命令行输入“TugWar <p1> <p2>”，其中<p1>、<p2>是参赛玩家编号
 // 测试时，在这里选择本次参赛的玩家函数编号
-int LEFT = 0;	// 左侧玩家
+int LEFT = 3;	// 左侧玩家
 int RIGHT = 1;	// 右侧玩家
 
 
 /************************ 在这里设置比赛参数 ************************/
 #define PLAYTIME 100 /*比赛时间（节拍数）*/
-#define SHOWRATE 80 /*显示间隔（ms）*/
+#define SHOWRATE 150 /*显示间隔（ms）*/
 #define WIND 2 /*最大风力*/
 #define ZONELEN 100   /*比赛区长度*/
 #define WINZONE 40  /*胜负区长度*/
@@ -104,7 +106,7 @@ void demo_player(struct war_info* info)
 
 	double pos_target, vel_target, acc_target;
 	//pos_target = (info.zones[1] + info.zones[2]) / 2;
-	pos_target = info->zones[1] + 10;
+	pos_target = info->zones[1] + 9*sizeof(double);
 	if (info->pos > pos_target)
 	{
 		// 输出加速度
@@ -261,8 +263,11 @@ int main(int argc, char* argv[])
 			break; // 比赛结束
 
 		// 延时
-		printf("\nflag_pos:%f acc[0]=%f acc[1]=%f",flag_pos,acc[0],acc[1]);//仅测试
-
+		printf("\nflag_pos:%f acc[0]=%f acc[1]=%f vel=%f",flag_pos,acc[0],acc[1],flag_vel);//仅测试
+		if(ts==2)
+		{
+			putchar('\n');
+		}
 		clock_t clk = clock();
 		while (clock() - clk < SHOWRATE);
 	}
