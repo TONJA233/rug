@@ -76,5 +76,10 @@ void enimy(struct war_info* info)
 	info->player_name = "老魔王";
 	int rec;
 	PID_update(info->pos);
-	info->player_acc = (pow(50000, -info->ts_left / 100)) * (PID_acc(info->zones[1] + 20, info->vel));
+	info->player_acc = (pow(500, -info->ts_left / 100)) * (PID_acc(info->zones[1] + 20, info->vel));
+ if (info->ts_left == 2) // 针对所有
+	{
+
+			info->player_acc = (info->zones[2] - info->pos) - info->wind - 2 - info->vel;
+		}
 }
